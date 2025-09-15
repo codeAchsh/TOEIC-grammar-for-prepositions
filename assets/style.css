@@ -1,0 +1,144 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf6;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  color: #4a4a4a;
+}
+
+.info-box {
+  background-color: #f7f7d5;
+  border-left: 5px solid #d5dd7b;
+  padding: 15px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.button-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #a0aa42;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #d3c82c;
+}
+
+.preposition-list {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.preposition-item {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+}
+
+.preposition-item img {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.preposition-item p{
+  margin-left: 20px;
+}
+.highlight {
+  font-weight: bold;
+  color: #3b3b32;
+  background-color: #cdf8ea;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.toeic-top{
+    margin-top: 5rem;
+    text-align: center;
+}
+.toeic-top a{
+    text-decoration: none;
+}
+.top-button{
+    padding: 10px 15px;
+    background-color: #a19f05;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}    
+.top-button:hover{
+    background-color: #f8f8d1;
+    color: #222;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #dfdfb9;
+  text-align: center;
+  font-size: 0.95em;
+  color: #444;
+  width: 100%;
+}
+
+
+@media screen and (max-width:480px){
+  body{
+    padding: 10px;
+  }
+  .info-box,
+  .word-list,
+  footer,
+  .button-group{
+    max-width: 100%;
+    padding: 12px;
+    font-size: 0.95em;
+  }
+  h1{
+    font-size: 1.4em;
+    line-height: 1.3;
+  }
+  .button-group{
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-group button{
+    width: 100%;
+    max-width: 300px;
+    font-size: 1em;
+  }
+  .example{
+    font-size: 0.9em;
+  }
+  .highlight{
+    padding: 2px 3px;
+    font-size: 0.95em;
+  }
+  footer{
+    font-size: 0.85em;
+    text-align: center;
+  }
+}

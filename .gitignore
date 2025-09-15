@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (もし使う場合)
+node_modules/
+npm-debug.log*
+
+# VS Code
+.vscode/
+
+# Build / Cache
+dist/
+build/
+.cache/
+
+# Images (一時ファイルなど)
+*.psd
+*.ai
+*.xcf
+
+# その他
+.env
